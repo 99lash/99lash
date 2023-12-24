@@ -5,7 +5,7 @@ I'm **John Asher Manit**, a `computer science` student arising out of  Manila, P
 I love learning and exploring technologies while working out my ass to help with social-online problems of future technologies which aid the communities at ease. Through offering/providing a quality experience & interface and memorable online entertainment as possible.
 
 ---
-<p aligh="center">As my debut as a **computer science student**, check out our first case study project below with my partner.</p>
+<p align="center">As my debut as a **computer science student**, check out our first case study project below with my partner.</p>
   <h3 align="center">[**MATH-WHiz**](https://github.com/99lash/Math-WHiz)</h3>
   
 <!--
