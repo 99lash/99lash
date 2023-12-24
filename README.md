@@ -6,8 +6,10 @@ I love learning and exploring technologies while working out my ass to help with
 
 ---
 
-<h3 align="center">As my debut as a <b>computer science student<b>, check out our first case study project below with my partner.</h2>
-<h3 align="center"><a href="https://github.com/99lash/Math-WHiz"></a><b>MATH-WHiz</b></h3>  
+<h3 align="center">As my debut as a <b>computer science student<b>, check out our first case study project below with my partner.</h3>
+<h3 align="center">
+  <a href="https://github.com/99lash/Math-WHiz"><b>MATH-WHiz</b></a>
+</h3>
 <!--
 **99lash/99lash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
