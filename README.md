@@ -7,7 +7,7 @@ I love learning and exploring technologies while working out my ass to help with
 ---
 
 <h3 align="center">[**MATH-WHiz**](https://github.com/99lash/Math-WHiz)</h3>
-<p align="center">As my debut as a **computer science student**, check out our first case study project below with my partner.</p>
+<p align="center">As my debut as a <b>computer science student<b>, check out our first case study project below with my partner.</p>
   
 <!--
 **99lash/99lash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
