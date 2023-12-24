@@ -7,11 +7,12 @@ I love learning and exploring technologies while working out my ass to help with
 ---
 
 <h3 align="center">Also check out our first case study project below with my partner.</h3>
-<h3 align="center">![image](https://github.com/99lash/99lash/assets/124173983/356330b8-4f2f-4441-88e8-f1d035312ad2)
-</h3>
+<h3 align="center">👇</h3>
 <h3 align="center">
   <a href="https://github.com/99lash/Math-WHiz"><b>MATH-WHiz</b></a>
 </h3>
+![image](https://github.com/99lash/99lash/assets/124173983/ae771805-97da-402f-8fd7-a116375a7cad)
+
 <!--
 **99lash/99lash** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
