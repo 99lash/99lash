@@ -6,7 +6,7 @@ I love learning and exploring technologies while working out my ass to help with
 
 ---
 
-<h5 align="center">Also check out our first case study project with my partner.</h5>
+<h4 align="center">Also check out our first case study project with my partner.</h4>
 <h3 align="center">👇</h3>
 <h3 align="center">
   <a href="https://github.com/99lash/Math-WHiz"><b>MATH-WHiz</b></a>
