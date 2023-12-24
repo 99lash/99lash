@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm **John Asher Manit**, a `computer science` student arising out of  Manila, Philippines 💻.
+I'm **John Asher Manit**, a `computer science student` arising out of  Manila, Philippines 💻.
 
 I love learning and exploring technologies while working out my ass to help with social-online problems of future technologies which aid the communities at ease. Through offering/providing a quality experience & interface and memorable online entertainment as possible.
 
