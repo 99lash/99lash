@@ -6,7 +6,9 @@ I love learning and exploring technologies while working out my ass to help with
 
 ---
 
-<h3 align="center">As my debut as a <b>computer science student<b>, check out our first case study project below with my partner.</h3>
+<h3 align="center">Also check out our first case study project below with my partner.</h3>
+<h3 align="center">![image](https://github.com/99lash/99lash/assets/124173983/356330b8-4f2f-4441-88e8-f1d035312ad2)
+</h3>
 <h3 align="center">
   <a href="https://github.com/99lash/Math-WHiz"><b>MATH-WHiz</b></a>
 </h3>
