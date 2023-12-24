@@ -6,6 +6,7 @@ I love learning and exploring technologies while working out my ass to help with
 
 ---
 👇As my debut as a **computer science student**, check out our first case study project with my partner.👇
+
 ---
 [MATH-WHiz](https://github.com/99lash/Math-WHiz)
 <!--
