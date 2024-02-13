@@ -29,11 +29,11 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Asher</h1>
 <h3 align="center">A passionate computer science student from Manila, Philippines</h3>
 
-- 🔭 I’m currently working on [my portfolio website](https://99lash.github.io/))
+- 🔭 I’m currently working on [my portfolio website](https://99lash.github.io/)
 
 - 👨‍💻 All of my projects are available in my [github profile](https://github.com/99lash)
 
-- 📫 How to reach me **asherjohn48@gmail.com**
+- 📫 Get in touch with me **asherjohn48@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
