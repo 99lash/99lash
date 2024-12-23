@@ -1,21 +1,38 @@
-<!-- # 💫 About Me
-🔭 An undergraduate student from University of Caloocan City, majoring Bachelor of Science in Computer Science<br>
+<div align="center">
+  <img src= "https://github.com/user-attachments/assets/66778bb7-2d4a-4984-8565-1ce34da88d90" alt="gif" width="500" height="300"/>
+</div>
+
+<h1 align="center">Hi 👋, I'm Asher</h1>
+
+<p align="center">
+<a href="https://instagram.com/xshr.21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="xshr.21" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/ashrad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ashrad" height="30" width="40" /></a>
+</p>
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=99lash&label=Profile%20views&color=0e75b6&style=flat" alt="99lash" /> </p>
+
+
+<br>
+
+## About me
+- 👨‍💻 Undergraduate Bachelor of Science in **Computer Science** from University of Caloocan City
+- 🌱 I’m currently learning **NodeJS + Express**
+- 📫 Reach me at **asherjohn48@gmail.com**
+- ⚡ Fun fact **sometimes fact is fun**
+
+
+<br>
+
+## Languages and Tools
+<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
+
+<br>
+
+## Github Stats
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=99lash&show_icons=true&locale=en&layout=compact" alt="99lash" /></p>
+
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=99lash&show_icons=true&locale=en" alt="99lash" /></p>
+
+<!-- 
+<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=99lash&" alt="99lash" /></p> 
 -->
-# 💻 Tech Stack
-
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Tampermonkey](https://img.shields.io/badge/tampermonkey-%2300485B.svg?style=plastic&logo=tampermonkey&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white)
-
-
-# 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=99lash&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=99lash&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=99lash&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
-
----
-[![](https://visitcount.itsvg.in/api?id=99lash&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
