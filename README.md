@@ -15,7 +15,7 @@
 <br>
 
 ## About me
-- 👨‍💻 Undergraduate Bachelor of Science in **Computer Science** from University of Caloocan City
+- 👨‍💻 I'm currently a 2nd-year student at University of Caloocan City - South Campus, majoring in Bachelor of Science in **Computer Science**
 - 🌱 I’m currently learning **NodeJS + Express + Tailwind**
 - 📫 Reach me at **asherjohn48@gmail.com**
 - ⚡ Fun fact **sometimes fact is fun**
