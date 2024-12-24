@@ -16,7 +16,7 @@
 
 ## About me
 - 👨‍💻 Undergraduate Bachelor of Science in **Computer Science** from University of Caloocan City
-- 🌱 I’m currently learning **NodeJS + Express**
+- 🌱 I’m currently learning **NodeJS + Express + Tailwind**
 - 📫 Reach me at **asherjohn48@gmail.com**
 - ⚡ Fun fact **sometimes fact is fun**
 
