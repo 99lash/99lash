@@ -1,38 +1,31 @@
-<div align="center">
-  <img src= "https://github.com/user-attachments/assets/66778bb7-2d4a-4984-8565-1ce34da88d90" alt="gif" width="500" height="300"/>
-</div>
+<img src= "https://github.com/user-attachments/assets/66778bb7-2d4a-4984-8565-1ce34da88d90" alt="gif" width="400" height="200"/>
 
-<h1 align="center">Hi 👋, I'm Asher</h1>
+[![Static Badge](https://img.shields.io/badge/Gmail-black?style=for-the-badge&logo=gmail&logoColor=%23EA4335&labelColor=white&color=%23EA4335)](mailto:asherjohn48@gmail.com)
+![Static Badge](https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logoColor=blue&labelColor=white&color=blue)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2F99lash&countColor=%23ffffff)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2F99lash)
+[](https://www.linkedin.com/in/john-asher-manit-7035b8264/)
 
-<p align="center">
-<a href="https://instagram.com/xshr.21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="xshr.21" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/ashrad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ashrad" height="30" width="40" /></a>
-</p>
+#### Tools and languages that I work and used to work with
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=99lash&label=Profile%20views&color=0e75b6&style=flat" alt="99lash" /> </p>
+![Static Badge](https://img.shields.io/badge/JavaScript-white?style=flat-square&logo=javascript&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Node.js-white?style=flat-square&logo=nodedotjs&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Express.js-white?style=flat-square&logo=express&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/MongoDB-white?style=flat-square&logo=mongodb&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/EJS-white?style=flat-square&logo=ejs&logoColor=black&labelColor=white&color=white)
+
+![Static Badge](https://img.shields.io/badge/Java-white?style=flat-square&logo=java&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Debian-white?style=flat-square&logo=debian&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Vercel-white?style=flat-square&logo=vercel&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black&labelColor=white&color=white)
+
+![Static Badge](https://img.shields.io/badge/HTML5-white?style=flat-square&logo=html5&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/CSS3-white?style=flat-square&logo=css3&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Tailwind%20CSS-white?style=flat-square&logo=tailwindcss&logoColor=black&labelColor=white&color=white)
+![Static Badge](https://img.shields.io/badge/Figma-white?style=flat-square&logo=figma&logoColor=black&labelColor=white&color=white)
 
 
-<br>
-
-## About me
-- 👨‍💻 I'm currently a 2nd-year student at University of Caloocan City - South Campus, majoring in Bachelor of Science in **Computer Science**
-- 🌱 I’m currently learning **NodeJS + Express + Tailwind**
-- 📫 Reach me at **asherjohn48@gmail.com**
-- ⚡ Fun fact **sometimes fact is fun**
 
 
-<br>
 
-## Languages and Tools
-<p align="left"> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> </p>
 
-<br>
 
-## Github Stats
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=99lash&show_icons=true&locale=en&layout=compact" alt="99lash" /></p>
-
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=99lash&show_icons=true&locale=en" alt="99lash" /></p>
-
-<!-- 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=99lash&" alt="99lash" /></p> 
--->
