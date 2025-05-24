@@ -5,7 +5,7 @@
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2F99lash&countColor=%23ffffff)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2F99lash)
 
 
-#### Tools and languages that I work and used to work with
+#### Tools and languages that I used to work with
 
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=flat-square&logo=javascript&logoColor=black&labelColor=white&color=white)
 ![Static Badge](https://img.shields.io/badge/Node.js-white?style=flat-square&logo=nodedotjs&logoColor=black&labelColor=white&color=white)
