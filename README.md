@@ -12,8 +12,8 @@
 ![Static Badge](https://img.shields.io/badge/Express.js-white?style=flat-square&logo=express&logoColor=black&labelColor=white&color=white)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=flat-square&logo=mongodb&logoColor=black&labelColor=white&color=white)
 ![Static Badge](https://img.shields.io/badge/EJS-white?style=flat-square&logo=ejs&logoColor=black&labelColor=white&color=white)
-
 ![Static Badge](https://img.shields.io/badge/Java-white?style=flat-square&logo=java&logoColor=black&labelColor=white&color=white)
+
 ![Static Badge](https://img.shields.io/badge/Debian-white?style=flat-square&logo=debian&logoColor=black&labelColor=white&color=white)
 ![Static Badge](https://img.shields.io/badge/Vercel-white?style=flat-square&logo=vercel&logoColor=black&labelColor=white&color=white)
 ![Static Badge](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black&labelColor=white&color=white)
