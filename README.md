@@ -7,6 +7,6 @@
 
 ### Tools and Languages that I used to work with
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,express,mongodb,postgres,postman,tailwind,java,mysql,debian,figma,git,php&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,express,mongodb,postgres,postman,tailwind,java,mysql,debian,figma,git,php,vuejs&perline=8)](https://skillicons.dev)
 </div>
 
