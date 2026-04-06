@@ -6,7 +6,8 @@ import requests
 # Configuration
 BIRTHDATE = datetime.datetime(2004, 9, 21)
 USERNAME = "99lash" 
-OUTPUT_PATH = "stats.svg"
+OUTPUT_LIGHT_PATH = "light_mode.svg"
+OUTPUT_DARK_PATH = "dark_mode.svg"
 
 def get_uptime():
     now = datetime.datetime.now()
@@ -79,7 +80,7 @@ def get_github_stats(token):
 def escape_xml(text):
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("'", "&apos;")
 
-def generate_svg(ascii_path, stats):
+def generate_svg(ascii_path, stats, theme):
     with open(ascii_path, "r") as f:
         ascii_lines = [line.rstrip() for line in f.readlines()]
 
@@ -112,51 +113,92 @@ def generate_svg(ascii_path, stats):
         (f"Total Size: {stats['size']} | LOC Est: {stats['loc']}", "text"),
     ]
 
-    # Calculate dimensions
     line_height = 20
-    max_lines = max(len(ascii_lines), len(right_side))
-    height = (max_lines * line_height) + 40
-    
+
+    # Top-align both sides (Andrew6rant-style), then scale ASCII vertically if needed.
+    ascii_start_y = 30
+    right_start_y = 30
+
+    # Make the overall SVG height follow the right-side block.
+    right_bottom_y = right_start_y + ((len(right_side) - 1) * line_height)
+    height = right_bottom_y + 30
+
+    # If the ASCII is taller than the right-side block, scale it vertically to fit.
+    ascii_bottom_y = ascii_start_y + ((len(ascii_lines) - 1) * line_height)
+    scale_y = None
+    if ascii_bottom_y > right_bottom_y and ascii_bottom_y != ascii_start_y:
+        scale_y = (right_bottom_y - ascii_start_y) / (ascii_bottom_y - ascii_start_y)
+
     # Find max width of ASCII to offset the right side
     max_ascii_width_chars = max(len(line) for line in ascii_lines)
-    ascii_offset = 15 # Padding
-    right_side_x = (max_ascii_width_chars * 8.5) + 40 # Roughly 8.5px per char for monospace 14px
+    right_side_x = (max_ascii_width_chars * 8.5) + 40  # Roughly 8.5px per char for monospace 14px
 
-    svg_header = f"""<svg width="850" height="{height}" xmlns="http://www.w3.org/2000/svg">
+    svg_header = f"""<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<svg width=\"1000\" height=\"{height}\" xmlns=\"http://www.w3.org/2000/svg\">
   <style>
-    .text {{ font: 14px 'Fira Code', 'Courier New', monospace; fill: #d1d5db; }}
-    .header {{ font: bold 16px 'Fira Code', 'Courier New', monospace; fill: #60a5fa; }}
-    .label {{ font: bold 14px 'Fira Code', 'Courier New', monospace; fill: #34d399; }}
-    .dim {{ font: 14px 'Fira Code', 'Courier New', monospace; fill: #4b5563; }}
-    .ascii {{ font: 12px monospace; fill: #9ca3af; white-space: pre; }}
+    .base {{ font: 14px 'Fira Code', 'Courier New', monospace; fill: {theme['base']}; }}
+    .header {{ font: bold 16px 'Fira Code', 'Courier New', monospace; fill: {theme['base']}; }}
+    .key {{ fill: {theme['key']}; }}
+    .value {{ fill: {theme['value']}; }}
+    .cc {{ fill: {theme['cc']}; }}
+    .ascii {{ font: 12px monospace; fill: {theme['ascii']}; white-space: pre; }}
+    text, tspan {{ white-space: pre; }}
   </style>
-  <rect width="100%" height="100%" fill="transparent"/>
+  <rect width=\"100%\" height=\"100%\" fill=\"{theme['bg']}\" rx=\"15\"/>
 """
 
     svg_content = []
-    
-    # Center the two sides vertically if one is shorter
-    ascii_start_y = 30
-    right_start_y = 30
-    
-    if len(ascii_lines) < len(right_side):
-        ascii_start_y += (len(right_side) - len(ascii_lines)) * line_height // 2
-    elif len(right_side) < len(ascii_lines):
-        right_start_y += (len(ascii_lines) - len(right_side)) * line_height // 2
 
     # Add ASCII
+    if scale_y is not None:
+        svg_content.append(
+            f'  <g id="ascii-art" transform="translate(0 {ascii_start_y}) scale(1 {scale_y:.5f}) translate(0 {-ascii_start_y})">'
+        )
+
     for i, line in enumerate(ascii_lines):
         y = ascii_start_y + (i * line_height)
-        svg_content.append(f'  <text x="20" y="{y}" class="ascii">{escape_xml(line)}</text>')
+        prefix = "    " if scale_y is not None else "  "
+        svg_content.append(f'{prefix}<text x="20" y="{y}" class="ascii">{escape_xml(line)}</text>')
 
-    # Add Stats
+    if scale_y is not None:
+        svg_content.append("  </g>")
+
+    # Add Stats (with key/value colors + dotted leaders)
     for i, (text, cls) in enumerate(right_side):
-        if not text: continue
+        if not text or cls == "dim":
+            continue
+
         y = right_start_y + (i * line_height)
-        svg_content.append(f'  <text x="{right_side_x}" y="{y}" class="{cls}">{escape_xml(text)}</text>')
+
+        if cls == "header":
+            svg_content.append(
+                f'  <text x="{right_side_x}" y="{y}" class="base"><tspan class="header">{escape_xml(text)}</tspan> -' + ("—" * 30) + "</text>"
+            )
+            continue
+
+        if cls == "label":
+            svg_content.append(
+                f'  <text x="{right_side_x}" y="{y}" class="base">{escape_xml(text)}' + ("—" * 22) + "</text>"
+            )
+            continue
+
+        if ":" in text:
+            key, value = text.split(":", 1)
+            key = key.strip()
+            value = value.strip()
+            dots_count = max(3, 26 - len(key))
+            dots = "." * dots_count
+            svg_content.append(
+                f'  <text x="{right_side_x}" y="{y}" class="base">'
+                f'<tspan class="cc">. </tspan><tspan class="key">{escape_xml(key)}</tspan>:'
+                f'<tspan class="cc"> {dots} </tspan><tspan class="value">{escape_xml(value)}</tspan>'
+                f"</text>"
+            )
+        else:
+            svg_content.append(f'  <text x="{right_side_x}" y="{y}" class="base">{escape_xml(text)}</text>')
 
     svg_footer = "</svg>"
-    
+
     return svg_header + "\n".join(svg_content) + "\n" + svg_footer
 
 if __name__ == "__main__":
@@ -167,9 +209,29 @@ if __name__ == "__main__":
         
     stats = get_github_stats(token)
     if stats:
-        svg_output = generate_svg("ascii-art.txt", stats)
-        with open(OUTPUT_PATH, "w") as f:
-            f.write(svg_output)
-        print(f"Successfully generated {OUTPUT_PATH}")
+        themes = {
+            OUTPUT_DARK_PATH: {
+                "bg": "#161b22",
+                "base": "#c9d1d9",
+                "key": "#ffa657",
+                "value": "#a5d6ff",
+                "cc": "#616e7f",
+                "ascii": "#9ca3af",
+            },
+            OUTPUT_LIGHT_PATH: {
+                "bg": "#f6f8fa",
+                "base": "#24292f",
+                "key": "#953800",
+                "value": "#0a3069",
+                "cc": "#c2cfde",
+                "ascii": "#57606a",
+            },
+        }
+
+        for out_path, theme in themes.items():
+            svg_output = generate_svg("ascii-art.txt", stats, theme)
+            with open(out_path, "w") as f:
+                f.write(svg_output)
+            print(f"Successfully generated {out_path}")
     else:
         print("Failed to gather stats")
