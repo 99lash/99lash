@@ -3,71 +3,71 @@
   <style>
     .base { font: 14px 'Fira Code', 'Courier New', monospace; fill: #24292f; }
     .header { font: bold 16px 'Fira Code', 'Courier New', monospace; fill: #24292f; }
-    .key { fill: #953800; }
+    .key { fill: #CA5C18; }
     .value { fill: #0a3069; }
-    .cc { fill: #c2cfde; }
-    .ascii { font: 12px monospace; fill: #57606a; white-space: pre; }
+    .cc { fill: #6e849c; }
+    .ascii { font: 15px monospace; fill: #000000FF; white-space: pre; }
+    .added { fill: #22CB00; }
+    .deleted { fill: #FF0001; }
     text, tspan { white-space: pre; }
   </style>
-  <rect width="100%" height="100%" fill="#f6f8fa" rx="15"/>
-  <g id="ascii-art" transform="translate(0 30) scale(1 0.53846) translate(0 -30)">
-    <text x="20" y="30" class="ascii">                     @+</text>
-    <text x="20" y="50" class="ascii">                     .::.:. .*</text>
-    <text x="20" y="70" class="ascii">                :</text>
-    <text x="20" y="90" class="ascii">          =  .. ..:            .</text>
-    <text x="20" y="110" class="ascii">                                .</text>
-    <text x="20" y="130" class="ascii">       :                           ...  .</text>
-    <text x="20" y="150" class="ascii">      .                                .</text>
-    <text x="20" y="170" class="ascii">    #:               .--:             .  .-#</text>
-    <text x="20" y="190" class="ascii">    ..  :    :=+++++==--==+++**#*-        ..</text>
-    <text x="20" y="210" class="ascii">    .:     :+=:-----:::--::---:::=#*     :: =</text>
-    <text x="20" y="230" class="ascii">    .    +#++*#**========-====-::.:+*      :</text>
-    <text x="20" y="250" class="ascii">   =.   +@%=.     ... .....:--=+****##    --</text>
-    <text x="20" y="270" class="ascii">   -    @      .....:.::.:         .*%-   :-</text>
-    <text x="20" y="290" class="ascii">   -   %@=---::.  ..  .    ....:--.  +%    :</text>
-    <text x="20" y="310" class="ascii">   =   @+.-:-++-:   ...     .:---::-:*@  .:#</text>
-    <text x="20" y="330" class="ascii">      %@. .         .-=:.         =+-=@=  +</text>
-    <text x="20" y="350" class="ascii">      @:         .:::::::::.     =    *%  -</text>
-    <text x="20" y="370" class="ascii">     @%+:..   :-=:---=+-::::=-        -@</text>
-    <text x="20" y="390" class="ascii">   = @-..:-=====:+*+-. .-++::===-::-::=@. *</text>
-    <text x="20" y="410" class="ascii">   : @:::::-::..-+   :.:  =+:.-===-:..:@= .</text>
-    <text x="20" y="430" class="ascii">   * @-:.......                ..::::-:@. -</text>
-    <text x="20" y="450" class="ascii">     @:.. ....:=:.....:::.. .:   ....:-@  .+</text>
-    <text x="20" y="470" class="ascii">     #-......-=:.  .-::-:   -=-.  ...:=#  =-</text>
-    <text x="20" y="490" class="ascii">   * *=.....   .++=..::.:=*=. ::.....:*- =</text>
-    <text x="20" y="510" class="ascii">      +.. ..                     ..:..#+</text>
-    <text x="20" y="530" class="ascii">      *........+*+==--====-:     ..:::*#</text>
-    <text x="20" y="550" class="ascii">       -....:...--:      :=+=-: .:...-</text>
-    <text x="20" y="570" class="ascii">        . ... :              ..    .=</text>
-    <text x="20" y="590" class="ascii">         ......::::::::.       :-: :</text>
-    <text x="20" y="610" class="ascii">         + .-:..:::-:::--:::.:--. -#</text>
-    <text x="20" y="630" class="ascii">         +=: .:...     ..::-:=. :=++</text>
-    <text x="20" y="650" class="ascii">         *-...                ... =*</text>
-    <text x="20" y="670" class="ascii">         .#.                     :*  --</text>
-    <text x="20" y="690" class="ascii">          *=.                   .     :*=</text>
-    <text x="20" y="710" class="ascii">    .      .:.                        - *=</text>
-    <text x="20" y="730" class="ascii">     - @=    ...           ....    *++@@</text>
-    <text x="20" y="750" class="ascii"> %# =  =.               .=++=:   %@@*   @% :</text>
-    <text x="20" y="770" class="ascii"> %=:  -@@    =.      .-=:    .*@@       -@@@ @</text>
-    <text x="20" y="790" class="ascii">  @ -%%+#  =.  .:.  .:   :          ..</text>
-    <text x="20" y="810" class="ascii">   -@@%   ==#%%@@@%%@@+       -++=--.==#%#</text>
+  <rect width="100%" height="100%" fill="#E3E3E3" rx="15"/>
+  <g id="ascii-art" transform="translate(0 30) scale(1 0.58333) translate(0 -30)">
+    <text x="20" y="30" class="ascii">                    .....</text>
+    <text x="20" y="50" class="ascii">             ..:.....:.....</text>
+    <text x="20" y="70" class="ascii">           :..:.........:...</text>
+    <text x="20" y="90" class="ascii">       .....::.:.....:..:::...:..:</text>
+    <text x="20" y="110" class="ascii">      .:.....::.:.....:.......:..:..</text>
+    <text x="20" y="130" class="ascii">     .............:::...:..:..:.:..:..</text>
+    <text x="20" y="150" class="ascii">    .:.:....:...:......:..:.........:..</text>
+    <text x="20" y="170" class="ascii">   ....:.:.:..::.:-+&gt;&gt;~:::.......::...:.</text>
+    <text x="20" y="190" class="ascii">   ........:)(]}[&gt;&lt;)^+&gt;&lt;(}%{{[=...:...=.</text>
+    <text x="20" y="210" class="ascii">  ..:....&lt;]{{{%@@@%%@@%%##{)(^[@.....:*:.</text>
+    <text x="20" y="230" class="ascii">  ......@@@@@#[]))&lt;)&gt;&gt;&lt;(#@@@@@%@@(....+.</text>
+    <text x="20" y="250" class="ascii">  -....@@:.......=+=**^=.......#@@:.:.-:</text>
+    <text x="20" y="270" class="ascii">  ^..:+@}(}%#&lt;+*^*~=+-===^*+&lt;&gt;...@@...:..</text>
+    <text x="20" y="290" class="ascii">  :...@@(}]({&gt;=:.:*---...~+&lt;[]]}]@@..:^.</text>
+    <text x="20" y="310" class="ascii">  .].@@:..=......:^#%&gt;:::.....^@{@@=.:^</text>
+    <text x="20" y="330" class="ascii">  .::@@:..:..::&gt;&lt;)][](]&gt;^........:@@.:.</text>
+    <text x="20" y="350" class="ascii">  }&lt;@@%=&lt;&lt;**]#][@@(}[[{{][]+:::=+^#@:.^</text>
+    <text x="20" y="370" class="ascii"> +~-@@*^]{%#(]^@)))**](@%*[@@%%}&gt;^{@=)^*</text>
+    <text x="20" y="390" class="ascii"> #*=@@[**&gt;^=~+.*........{=:^]][(]((@-~^~</text>
+    <text x="20" y="410" class="ascii"> *~.%@&gt;~=-++*[=.:==-+=~..~^:-++++]{@..+-</text>
+    <text x="20" y="430" class="ascii"> +:.]@^=~==&gt;{{]:.*])()~.^##)--~-+&gt;@@::&lt;</text>
+    <text x="20" y="450" class="ascii">  @{[@&gt;=~+=..:#{&gt;-~~~-+[#::^**+**^@*:%.</text>
+    <text x="20" y="470" class="ascii">  ...#&gt;==*::..:...:...:....:::=^^*@..~</text>
+    <text x="20" y="490" class="ascii">     %}=++=++)@@#)**^*)%%)---^*^*){</text>
+    <text x="20" y="510" class="ascii">      #---*^&gt;=~*-.....:*&lt;&lt;]^:=~=&gt;}~</text>
+    <text x="20" y="530" class="ascii">       [~*~~~*::-:-~-:...:-:=&lt;-*&lt;:</text>
+    <text x="20" y="550" class="ascii">       ^)~&gt;&lt;*)][[((({{[)&gt;==&lt;{*~]&gt;</text>
+    <text x="20" y="570" class="ascii">        @#~&lt;]^==-.:.~~=+&lt;[@}-&lt;@@@</text>
+    <text x="20" y="590" class="ascii">        @[^+-.......:...::::+&gt;[@#@</text>
+    <text x="20" y="610" class="ascii">     @@%*@+..:..:......:....:-#-.@@@</text>
+    <text x="20" y="630" class="ascii">   @@:...)]=-----:....:....:-....:-@@</text>
+    <text x="20" y="650" class="ascii">  @@*..:..:~-:----:::::.:::~-:..==@@@@</text>
+    <text x="20" y="670" class="ascii">@@@&gt;..@%....:-~-::-::.......:.-@@@^@@.@@</text>
+    <text x="20" y="690" class="ascii">@@{..*-=.::..:.....:-=@@@@@@@:.-....@@)@@@</text>
+    <text x="20" y="710" class="ascii">+.@.&gt;@@@(...&lt;^^:~=&lt;(].........::...:......</text>
+    <text x="20" y="730" class="ascii">..@@@@[..~@@#%@@@%@%........:^^&lt;*%@@@@....</text>
+    <text x="20" y="750" class="ascii">.......:}@@}[:........:@@@)~-......=....:.</text>
   </g>
-  <text x="431.0" y="30" class="base"><tspan class="header">ash @iash</tspan> -——————————————————————————————</text>
-  <text x="431.0" y="70" class="base"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Linux - Fedora</tspan></text>
-  <text x="431.0" y="90" class="base"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">21 years, 6 months, 16 days</tspan></text>
-  <text x="431.0" y="110" class="base"><tspan class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Oh My Zsh</tspan></text>
-  <text x="431.0" y="130" class="base"><tspan class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Manila, Philippines</tspan></text>
-  <text x="431.0" y="170" class="base">- Languages &amp; Frameworks -——————————————————————</text>
-  <text x="431.0" y="190" class="base"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Java, JS, Python, PHP</tspan></text>
-  <text x="431.0" y="210" class="base"><tspan class="cc">. </tspan><tspan class="key">Tools</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Redis</tspan></text>
-  <text x="431.0" y="230" class="base"><tspan class="cc">. </tspan><tspan class="key">Databases</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">PostgreSQL, MySQL, SQLite</tspan></text>
-  <text x="431.0" y="250" class="base"><tspan class="cc">. </tspan><tspan class="key">Frameworks</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">FastAPI, Express, Laravel, React</tspan></text>
-  <text x="431.0" y="290" class="base">- Hobbies -——————————————————————</text>
-  <text x="431.0" y="310" class="base"><tspan class="cc">. </tspan><tspan class="key">Software</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Open Source, Tinkering</tspan></text>
-  <text x="431.0" y="330" class="base"><tspan class="cc">. </tspan><tspan class="key">Real Life</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Cycling, Programming</tspan></text>
-  <text x="431.0" y="370" class="base">- GitHub Stats -——————————————————————</text>
-  <text x="431.0" y="390" class="base"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">29 (Contributed: 6)</tspan></text>
-  <text x="431.0" y="410" class="base"><tspan class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">4 | Followers: 20</tspan></text>
-  <text x="431.0" y="430" class="base"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">814 | Streaks: Active</tspan></text>
-  <text x="431.0" y="450" class="base"><tspan class="cc">. </tspan><tspan class="key">Total Size</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">80.0 MB | LOC Est: 4,098,100</tspan></text>
+  <text x="397.0" y="30" class="base"><tspan class="header">ash@iash</tspan> ---------------------------------------------------------</text>
+  <text x="397.0" y="50" class="base"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc">........................ </tspan><tspan class="value">Linux - Fedora</tspan></text>
+  <text x="397.0" y="70" class="base"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc">.................... </tspan><tspan class="value">21 years, 6 months, 17 days</tspan></text>
+  <text x="397.0" y="90" class="base"><tspan class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc">..................... </tspan><tspan class="value">Oh My Zsh</tspan></text>
+  <text x="397.0" y="110" class="base"><tspan class="cc">. </tspan><tspan class="key">Location</tspan>:<tspan class="cc">.................. </tspan><tspan class="value">Manila, Philippines -&gt; 127.0.0.1</tspan></text>
+  <text x="397.0" y="150" class="base">- Languages &amp; Frameworks - ---------------------------------------</text>
+  <text x="397.0" y="170" class="base"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>:<tspan class="cc">................. </tspan><tspan class="value">Java, JS, Python, PHP</tspan></text>
+  <text x="397.0" y="190" class="base"><tspan class="cc">. </tspan><tspan class="key">Tools</tspan>:<tspan class="cc">..................... </tspan><tspan class="value">VS Code, Git, Docker, Redis</tspan></text>
+  <text x="397.0" y="210" class="base"><tspan class="cc">. </tspan><tspan class="key">Databases</tspan>:<tspan class="cc">................. </tspan><tspan class="value">PostgreSQL, MySQL, SQLite</tspan></text>
+  <text x="397.0" y="230" class="base"><tspan class="cc">. </tspan><tspan class="key">Frameworks</tspan>:<tspan class="cc">................ </tspan><tspan class="value">FastAPI, Express, Laravel, React</tspan></text>
+  <text x="397.0" y="270" class="base">- Hobbies - ------------------------------------------------------</text>
+  <text x="397.0" y="290" class="base"><tspan class="cc">. </tspan><tspan class="key">Software</tspan>:<tspan class="cc">.................. </tspan><tspan class="value">Open Source, Tinkering</tspan></text>
+  <text x="397.0" y="310" class="base"><tspan class="cc">. </tspan><tspan class="key">Real Life</tspan>:<tspan class="cc">................. </tspan><tspan class="value">Cycling, Touching Grass</tspan></text>
+  <text x="397.0" y="350" class="base">- GitHub Stats - -------------------------------------------------</text>
+  <text x="397.0" y="370" class="base"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc">..................... </tspan><tspan class="value">29 {Contributed: 6}</tspan></text>
+  <text x="397.0" y="390" class="base"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc">................... </tspan><tspan class="value">815</tspan></text>
+  <text x="397.0" y="410" class="base"><tspan class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc">..................... </tspan><tspan class="value">4</tspan></text>
+  <text x="397.0" y="430" class="base"><tspan class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc">................. </tspan><tspan class="value">21</tspan></text>
+  <text x="397.0" y="450" class="base"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc">... </tspan><tspan class="value">4,099,400</tspan></text>
 </svg>
